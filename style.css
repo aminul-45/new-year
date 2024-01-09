@@ -4,7 +4,7 @@
   display: flex;
 }
    body {
-    margin: 0px 140px;
+    margin: 3px 140px;
     
    }
 
@@ -14,9 +14,7 @@
   /* position: relative; */
   margin-top: 20px;
   
-  box-shadow:inset 0px 1677px 60px #000000;
 }
-
 
 .second{ color: rgb(255, 255, 255);
 text-align: center;
@@ -24,12 +22,14 @@ position: absolute;
 font-family: Merriweather;
 margin-top: 0px; 
 margin-bottom: 0px;
-
+padding: 5px;
+box-shadow:inset 0px 150px 200px #0a0a0a00;
+background-color: rgba(36, 35, 35, 0);
 
 }
 
 #first{ 
-  box-shadow:inset 0px 0px 6px #0000003d;
+  
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -37,6 +37,7 @@ margin-bottom: 0px;
   margin-top: 177px;
   margin-bottom: 0px;
   margin-left: 180px;
+  padding-top: 20px;
  
 } 
 #first1 {  margin-top:0px ;
@@ -236,7 +237,115 @@ margin-top: 1px;
 height: 433px; */
  background-position: bottom right; 
  background-repeat: no-repeat;  
-position: absolute;         }
+position: absolute; 
+margin-top: 10px;
+padding-top: 70px;
+right: 10px;        }
 #sticker{background-position: bottom right;
   position: relative; 
+  right: 215px ;
+}
+
+#rectang{
+  width: 600px;
+  height: 500px;
+  margin-top: -350px;
+  margin-left: 170px;
+  position: fixed  ;
+  position: relative;
+
+}
+  
+
+.rec{background-image: url('images/Rectangle2.png');
+  width: 1200px;
+  height: 200px;
+  border-radius: 16px 0px 16px 16px;
+background: #F00;
+margin-top: 390px;
+position: absolute;
+}
+.awsome{ margin-top: 690px;
+  display: block;
+}
+#name{ margin-top: 0px;
+  color: #F00;
+  font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+#roll{margin-top: 0px;
+  color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+}
+#id{ margin-top: 0px;
+  color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+/* picture section  */
+.inline{width: 40%;
+  height: 40%;
+  display: flex;
+  gap: 15px;
+}
+.picture1{
+  width: 350px;
+height: 350px;
+}
+.container{
+  display: flex;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+/* picture + info */
+.message{
+  text-align: center;
+  margin-top: 30px;
+  background-color: antiquewhite;
+  
+}
+.imagess{
+  padding-top: 50px;
+  gap: none;
+}
+#unsubs{
+  color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+margin-bottom: 5px;
+}
+#type{border-radius: 40px;
+  background: #FFF;
+  width: 250px;
+height: 20px;
+border-style: none;
+padding: 10px;
+
+}
+.butt{
+  color: white;
+  background-color: rgb(221, 8, 8);
+  padding: 10px;
+  border-radius: 40px;
+  margin-bottom: 5px;
+}
+.foot{margin-top: 20px;
+  display: flex;
+}
+#imageid{
+  width: 400px;
 }
