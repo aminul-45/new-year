@@ -3,10 +3,11 @@
   justify-content: center;
   display: flex;
 }
-   body {
+  body{
     margin: 3px 140px;
     
    }
+   .party{margin: 3px 100px;}
 
 /* image first section */
 .img-box{max-width: 100%;
@@ -96,17 +97,16 @@ background-color: rgba(36, 35, 35, 0);
 .background-image {
   background-image: url('images/Vectorrr.png');
   background-repeat: no-repeat;
-  width: 1320px;
+  width: 1200px;
   height: 600px;
   flex-shrink: 0;
   margin-right: 0px 20px;
 }
-.combine{
-     box-shadow:inset 0px -6px 600px #252525;
-}
+
+
 #greting{
     color: #FFF;
-
+margin-left: 50px;
 font-family: Merriweather;
 font-size: 64px;
 font-style: normal;
@@ -121,7 +121,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; 
- margin-left: 20px;                 /* 166.667% */
+ margin-left: 60px;                 /* 166.667% */
 }
 .join{
     color: white;
@@ -131,7 +131,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
-margin-left: 10px;
+margin-left: 80px;
 }
 
 .main{ box-shadow:inset 0px 100px 200px antiquewhite;
@@ -189,6 +189,14 @@ font-weight: 400;
   display: flex;
   align-items: center;
   justify-content:space-around;
+  
+}
+.ellipae{ margin-right: 50px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50% ;
+  border: 10px solid red;
   
 }
 #sal{
@@ -343,9 +351,40 @@ padding: 10px;
   border-radius: 40px;
   margin-bottom: 5px;
 }
-.foot{margin-top: 20px;
+ .contain{ background-color: #252427;
+  margin-top: 50px;
+  width: 1080px;
+height: 400px;
+margin-bottom: 30px;
+ }
+
+.foooter,last{
+  color: rgb(205, 195, 195);
+  margin-top: -35px;
+  margin-left: 900px;
+}
+#fooot{ color: rgb(183, 174, 174);
+padding-top: 110px;
+margin-left: 40px;
+}
+
+.image-container {
+  text-align: center; /* Center the images horizontally */
+}
+
+.image-container img { width: 30px;
+  height: 30px;
+  display: inline-block; /* Display images side by side */
+  vertical-align: middle; /* Align images vertically in the middle */
+  margin: 18px 10px; /* Add some spacing between images */
+}
+.ptag{
+  margin-top: 50px;
   display: flex;
+  justify-content: space-around;
+  color: white;
+
 }
-#imageid{
-  width: 400px;
-}
+
+  
+
